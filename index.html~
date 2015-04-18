@@ -1,3 +1,9 @@
 <html>
+<body>
+<script src="./pairings.js" type="text/javascript"></script>
 Testing
+<input type="text" id="numberOfPlayers" name="numberOFPlayers" value=""> Number of players: </br>
+<a href="#"  id="fillerdetails" onclick="generatePlayerNameFields()"> FIll Details</a>
+<div id="container"></div>
+</body>
 </html>

@@ -10,11 +10,10 @@ function generatePlayerNameFields(){
 	}
 	
 	for(i=0;i<numberOfPlayers;i++){
-		container.appendChild(document.createTextNode("Player " + (i+1)));
+		container.appendChild(document.createTextNode("Member " + (i+1)));
 		var input = document.createElement("input");
 		input.type = "text";
-		input.name =  "Player" + i;
-		input.className = "test";
+		input.name =  "member" + i;
 		container.appendChild(input);
 		container.appendChild(document.createElement("br"));
 	}

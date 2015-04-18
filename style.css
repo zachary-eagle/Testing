@@ -1,0 +1,21 @@
+body { 
+background-color: #222222;
+}
+
+.test{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border-style: none;
+}
+
+#container {
+	color: #999999;	
+}
+#numberOfPlayers {
+	width:30px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border-style: none;
+}
